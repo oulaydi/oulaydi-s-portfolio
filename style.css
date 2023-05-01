@@ -516,7 +516,7 @@ footer div .logo{
 
 /* Media */
 
-@media (max-width: 300px) {
+@media (max-width: 414px) {
     header{
         top: -0.8cm;
         margin-bottom: -.5cm;
