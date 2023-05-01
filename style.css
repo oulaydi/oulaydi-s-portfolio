@@ -514,9 +514,10 @@ footer div .logo{
 }
 
 
+
 /* Media */
 
-@media (max-width: 414px) {
+@media (max-width: 320px) {
     header{
         top: -0.8cm;
         margin-bottom: -.5cm;
@@ -524,11 +525,11 @@ footer div .logo{
     }
 
     .logo{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     i{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     h3.sub-heading{
@@ -537,23 +538,29 @@ footer div .logo{
     }
     
     h1.heading{
-        margin-left: 2.5cm;
+        margin-left: 2cm;
         display: inline-block;
     }
 
     p.text{
         display: block;
         position: absolute;
-        font-size: 1rem;
+        font-size: .8rem;
         padding-inline: 1cm;
+        font-weight: 500;
         
     }
 
     div.cta{
         position: absolute;
         display: block;
-        margin-top: 7cm;
-        margin-left: 1cm;
+        margin-top: 6cm;
+        margin-left: .6cm;
+    }
+
+
+    .cta a.btn , .second-btn{
+        font-size: .75rem;
     }
 
     div.img{
@@ -577,31 +584,32 @@ footer div .logo{
         position: absolute;
         margin-bottom: 9cm;
         margin-left: -2cm;
-        margin-top: -4.7cm;
+        margin-top: -5.7cm;
     }
 
     .box-heading h1.heading-service{
         position: absolute;
         display: inline-block;
         margin-left: .2cm;
-        margin-top: -4.3cm;
+        margin-top: -5.3cm;
     }
 
     .text-work{
         display: block;
         position: absolute;
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding-inline: 1cm;
-        right: 0.85cm;
-        top: 17.5cm;
-        font-weight: 600;
+        right: 1cm;
+        top: 16.5cm;
+        font-weight: 500;
     }
 
     .box-desc a{
         position: absolute;
         display: inline-block;
-        top: 21cm;
-        right: 2cm;
+        top: 19.9cm;
+        right: 3.5cm;
+        padding: 12px 12px;
         font-size: 0.85rem;
     }
 
@@ -611,7 +619,7 @@ footer div .logo{
       
         .image1{
           width: 100%;
-          margin: 0 0 -4cm;
+          margin: 0 0 -0.5cm;
         }
         .image2 {
             width: 100%;
@@ -623,21 +631,21 @@ footer div .logo{
     .contact-info .sub-heading{
         display: block;
         position: absolute;
-        margin-top: -4.5cm;
-        
+        margin-top: -2.5cm;        
     }
 
     .contact-info .heading-work{
         display: block;
         position: absolute;
-        margin-top: -3.3cm;
-        margin-left: 0.8cm;
+        margin-top: -1.8cm;
+        margin-left: 2cm;
     }
 
     .contact-info a.mail{
         display: block;
         position: absolute;
-        margin-top: -1.8cm;
+        font-size: 1rem;
+        margin-top: 1cm;
         margin-left: 0.cm;
     }
 
@@ -645,19 +653,19 @@ footer div .logo{
         display: block;
         position: absolute;
         margin-right: 1cm;
-        margin-top: -0.3cm;
-        font-weight: 600;
+        margin-top: 2.3cm;
+        font-weight: 500;
     }
 
     form.contact-form{
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
         display: block; 
-        margin-left: -6cm;
-        margin-right: 0.5cm;
-        margin-top: 6cm;
+        margin-left: -5.1cm;
+        margin-top: 7cm;
+        margin-bottom: -1cm;
     }
 
     .contact-form h3{
@@ -678,9 +686,9 @@ footer div .logo{
     footer .container{
         display: flex;
         justify-content: space-between;
-
         align-items: center;
         flex-wrap:wrap;
+        background-color: #cfdee7;
     }
 
     .text-copy{
@@ -688,14 +696,23 @@ footer div .logo{
         font-size: .60rem;
         padding-top: 1cm;
         margin-bottom: 1cm;
+        margin-right: 1cm;
     }
 
     footer a.logo{
+        padding-top: 0.5cm;
         font-size: 1rem;
+        margin-left: -.5cm;
     }
 
 
     .social-link{
-        display: none;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        margin-left: 2.9rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
