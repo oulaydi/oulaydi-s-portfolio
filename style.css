@@ -111,17 +111,16 @@ nav.container {
     font-weight: 650;
     letter-spacing: .5px;
     color: #0a369d;
-    box-shadow: inset 0 0 0 0 #0a369d;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    transition: color .3s ease-in-out, .3s ease-in-out;
     opacity: 0.9;
-    border-radius: 9px;
+    border-radius: 10px;
 }
 
 
 .nav-link:hover {
     box-shadow: inset 100px 0 0 0 #4472ca;
     color: #edf2f4;
-    padding: 6px 0;
+    padding: 0.3rem;
 }
 
 hr {
