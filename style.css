@@ -149,7 +149,7 @@ hr {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: calc(100vh - 50px);
-    max-height: 600px;
+    height: 600px;
     align-items: center;
 }
 
