@@ -23,7 +23,16 @@ if (isset($_POST['submit'])) {
     $sql = "INSERT INTO about (full_name, email, message) VALUES ('$name', '$email', '$message')";
 
     if (mysqli_query($conn, $sql)) {
-        echo "Data inserted successfully!";
+        echo "<p style='
+        background-color: #d4edda;
+        color: #155724;
+        padding: 10px;
+        border: 1px solid #c3e6cb;
+        border-radius: 5px;
+        font-size: 1rem;
+        width: 27%;
+        margin-left: 320px;'
+        >Your message are successfully sent!</p>";
     } else {
         echo "Error: " . mysqli_error($conn);
     }
