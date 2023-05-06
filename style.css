@@ -65,6 +65,7 @@ header {
     width: 100%;
     z-index: 10;
     transition: 0.3s;
+    margin-top: -.5cm;
 }
 
 
@@ -131,7 +132,7 @@ hr {
     margin-top: 0;
     border-bottom: 1px solid #0a369d;
     box-shadow: 0 20px 20px -20px #333;
-    margin: -50px auto 10px;
+    margin: -1.75cm auto 10px;
 }
 
 
@@ -519,8 +520,8 @@ footer div .logo{
 @media (max-width: 1000px) {
     header{
         top: -0.8cm;
-        margin-bottom: -.5cm;
-
+        margin-top: -.15cm;
+        margin-bottom: .5cm;
     }
 
     .logo{
@@ -662,7 +663,8 @@ footer div .logo{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         display: block; 
-        margin-left: -5.1cm;
+        margin-left: -5cm;
+        margin-right: .1cm;
         margin-top: 7cm;
         margin-bottom: -1cm;
     }
@@ -685,9 +687,10 @@ footer div .logo{
     footer .container{
         display: flex;
         justify-content: space-between;
+        margin-bottom: -3cm;
         align-items: center;
         flex-wrap:wrap;
-        background-color: #cfdee7;
+        background-color: #edf2f4;
     }
 
     .text-copy{
@@ -695,7 +698,6 @@ footer div .logo{
         font-size: .60rem;
         padding-top: 1cm;
         margin-bottom: 1cm;
-        margin-right: 1cm;
     }
 
     footer a.logo{
