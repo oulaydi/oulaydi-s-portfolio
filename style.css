@@ -528,14 +528,14 @@ footer{
 }
 
 .logo-foot{
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     width: 800;
     color: #edf2f4;
     cursor: default;
 }
 
 .logo-foot i{
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: 600;
     color: #cfdee7;
     cursor: default;
@@ -544,7 +544,7 @@ footer{
 .text-copy{
     font-size: 1.6rem;
     color: #edf2f4;
-    padding: auto;
+    
 }
 
 .footer-icontop a{
@@ -717,6 +717,7 @@ footer{
         flex-direction: column;
         border-radius: 20px;
         margin-bottom: 1.5cm;
+        margin-left: 1cm;
     }
 
     .form-input {
@@ -916,7 +917,6 @@ footer{
     }
 }
 
-
 @media (max-width: 450px) {
     #menu{
         display: block;
@@ -1070,6 +1070,108 @@ footer{
     }
 }
 
+@media (max-width: 414px) {
+
+    .showcase-info{
+        width: 100%;
+        margin-right: 5cm;
+        margin-left: -1cm;
+        margin-top: 1cm;
+        font-size: 2.5rem;
+    }
+
+
+    h1.heading-service{
+        margin: 0 -.8cm;
+        font-size: 3rem;
+    }
+
+    a.btn#btn-hire{
+        width: 28%;
+        margin-left: 7.5cm;
+        padding: 1rem 1.75rem;
+        font-size: 1.7rem;
+    }
+
+
+    .image-container{
+        height: 25vh;
+        width: 100%;
+        margin-bottom: 2cm;
+        margin-top: -3cm;
+    }
+
+    .image2{
+        margin-left: 25px;
+    }
+
+    .mail{
+        font-size: 1.85rem;
+        font-weight: 400;
+    }
+
+    .container-chat{
+        display: contents;
+    }
+
+    div.contact-chat{
+        margin-top: -1cm;
+    }
+
+    form.contact-form{
+        margin-left: .6cm;
+        padding-left: 70px;
+        padding-right: 75px;
+        margin-bottom: 1cm;
+    }
+
+    footer.footer{
+        margin-bottom: 0px;
+    }
+
+    
+}
+
+@media (max-width: 375px){
+    div.showcase-info{
+        padding-right: 15%;
+        margin-top: 2cm;
+    }
+
+    section#about.work{
+        padding-top: 3cm;
+    }
+
+
+    h1.heading-service{
+        margin: 0 -.8cm;
+        font-size: 3rem;
+    }
+
+    a.btn#btn-hire{
+        width: 28%;
+        margin-left: 6.5cm;
+        padding: 1rem 1.75rem;
+        font-size: 1.7rem;
+    }
+
+    div.contact-chat{
+        margin-top: -1cm;
+    }
+
+    form.contact-form .sms{
+        padding-left: 0px;
+        margin-left: 5px;
+    }
+
+    form.contact-form{
+        margin-left: .5cm;
+        padding-left: 70px;
+        padding-right: 65px;
+    }
+
+}
+
 @media (max-width: 365px) {
     html{
         font-size: 53%;
@@ -1153,6 +1255,8 @@ footer{
     }
     form.contact-form{
         margin-left: 0.5cm;
+        padding-right: 70px;
+        padding-left: 65px;
     }
 
     .form-input {
@@ -1165,3 +1269,68 @@ footer{
         margin-left: -1.1cm;;
     }
 }
+
+@media (max-width: 320px) {
+    body{
+        width: 320px;
+    }
+    .container {
+        margin-left: 1.5cm;
+        left: 0px;
+        bottom: 1.75cm;
+        right: 0px;
+        margin-bottom: -4cm;
+    }
+
+    
+    .work{
+        top: 3cm;
+        margin-bottom: -3cm;
+    }
+
+    .work-box{
+        padding: 15rem 6rem;
+    }
+
+    .work-box .sub-heading{
+        margin-left: -1cm;
+    }
+
+    .work-box .heading-service{
+        margin-left: -1.5cm;
+    }
+
+    h3.sub-heading{
+        margin-left: 1cm;
+    }
+    
+    .box-desc{
+        column-gap: 7rem;
+    }
+    
+    .image2{
+        width: 100%;
+        margin-left: 2cm;
+    }
+
+    form.contact-form{
+        margin-left: 0.85cm;
+        padding-right: 60px;
+        padding-left: 55px;
+    }
+
+    .form-input {
+        width: 150%;
+        margin-left: -1.1cm;
+    }
+
+    .btn-work{
+        width: 150%;
+        margin-left: -1.1cm;;
+    }
+
+    footer.footer{
+        width: 350px;
+    }
+}
+
