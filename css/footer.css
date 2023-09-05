@@ -18,7 +18,7 @@
 
 /* footer section */
 
-.section1{
+footer{
     width: 100%;
     /* position: absolute; */
     bottom: 0;
@@ -195,7 +195,7 @@ hr{
 }
 
 @media (max-width: 700px) {
-    .section1{
+    footer{
         bottom: unset;
     }
 
