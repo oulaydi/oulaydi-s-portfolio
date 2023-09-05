@@ -518,81 +518,7 @@ textarea.form-input{
 
 /* footer */
 
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 1rem;
-    background: #0a369d;
-}
 
-.logo-foot{
-    font-size: 2.5rem;
-    width: 800;
-    color: #edf2f4;
-    cursor: default;
-}
-
-.logo-foot i{
-    font-size: 1.5rem;
-    width: 600;
-    color: #cfdee7;
-    cursor: default;
-}
-
-.text-copy{
-    font-size: 1.6rem;
-    color: #edf2f4;
-    
-}
-
-.footer-icontop a{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center; 
-    cursor: default;   
-}
-
-.footer-icontop a i{
-    color: #edf2f4;
-    font-size: 2rem;
-    transition: .2s;
-    margin-left: 19cm;
-}
-
-.footer-icontop a i:hover{
-    color: #5e7ce2;
-    font-size: 2rem;
-}
-
-.footer .social-media a{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 3.5rem;
-    height: 3.5rem;
-    color: transparent;
-    border: .2rem solid #edf2f4;
-    box-shadow: 0 .2rem .5rem #5e7ce2;
-    font-size: 1rem;
-    margin: 1rem .75rem 1rem .75rem;
-    border-radius: 50%;
-    transition: .3s;
-}
-
-.footer .social-media i{
-    color: #edf2f4;
-    margin-right: 5.5px;
-}
-
-.footer .social-media i:hover{
-    color: #0a369d;
-}
-.footer .social-media a:hover{
-    background-color: #edf2f4;
-    padding: -10px 0;
-}
 
 
 /* media */
@@ -734,24 +660,6 @@ footer{
         margin-left: -.75cm;;
     }
 
-    .footer-icontop a{
-        display: none;
-    }
-
-    .logo-foot{
-        font-size: 1.75rem;
-        width: 800;
-        margin-bottom: 1cm;
-        margin-left: 1cm;
-        cursor: default;
-    }
-
-    .text-copy{
-        font-size: 1.3rem;
-        color: #edf2f4;
-        margin-right: 0.1cm;
-        padding-left: 3cm;
-    }
 }
 
 @media (max-width: 617px) {
@@ -887,34 +795,6 @@ footer{
         width: 110%;
         margin-left: -.75cm;;
     }
-
-    .footer-icontop a{
-        display: none;
-    }
-
-    .logo-foot{
-        font-size: 1.75rem;
-        margin-bottom: 1cm;
-        margin-left: 1cm;
-    }
-
-    .text-copy{
-        font-size: 1rem;
-        color: #edf2f4;
-        margin-right: 0.1cm;
-        padding-left: 1.7cm;
-    }
-
-    .footer .social-media a{
-        width: 2.5rem;
-        height: 2.5rem;
-        margin: 1rem 7px 1rem .1rem;
-    }
-    
-    .footer .social-media i{
-        font-size: 1.5rem;
-        margin-right: 5.5px;
-    }
 }
 
 @media (max-width: 450px) {
@@ -1023,37 +903,6 @@ footer{
         width: 120%;
         margin-left: -.75cm;;
     }
-
-    .footer-icontop a{
-        display: none;
-    }
-
-    .logo-foot{
-        font-size: 1.75rem;
-        margin-bottom: 1cm;
-        margin-left: .2cm;
-
-    }
-
-    .text-copy{
-        font-size: 1rem;
-        color: #edf2f4;
-        margin-right: 0.1cm;
-        padding-left: .7cm;
-    }
-
-    .footer .social-media a{
-        border: 1px solid #edf2f4;
-        width: 2.4rem;
-        height: 2.4rem;
-        margin: 1rem 3px 1rem .1rem;
-    }
-    
-    .footer .social-media i{
-        font-size: 1.5rem;
-        margin-right: 5.5px;
-    }
-
     .contact-form h3{
         font-size: 1.8rem;
         font-weight: 600;
@@ -1124,11 +973,6 @@ footer{
         padding-right: 75px;
         margin-bottom: 1cm;
     }
-
-    footer.footer{
-        margin-bottom: 0px;
-    }
-
     
 }
 
@@ -1327,10 +1171,6 @@ footer{
     .btn-work{
         width: 150%;
         margin-left: -1.1cm;;
-    }
-
-    footer.footer{
-        width: 350px;
     }
 }
 
