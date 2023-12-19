@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="<%= local.descreption %>">
+    <link rel="stylesheet" href="/css/style.css">
+    <title><%= local.title %> - <%= local.index %></title>
+</head>
+<body>
+    <div class="container">
+        <%- include('../partials/header.ejs') %>
+        <main class="main">
+            <%- body %>
+        </main>
+        <%- include('../partials/footer.ejs') %>
+    </div>
+</body>
+</html>
