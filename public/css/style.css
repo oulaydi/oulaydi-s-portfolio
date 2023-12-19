@@ -178,7 +178,7 @@ img {
     margin-bottom: 20px;
     font-size: 32px;
     text-transform: uppercase;
-    border-left: 6px solid var(--blue-1);
+    border-left: 6px solid var(--grey);
     padding-left: 15px;
     border-radius: 5px;
     height: 40px;
@@ -198,7 +198,7 @@ img {
     overflow: hidden;
     position: relative;
     max-height: 528px;
-    filter: drop-shadow(0px 44px 34px rgba(44, 81, 227, 0.25));
+    filter: drop-shadow(0px 44px 34px rgba(130, 131, 132, 0.25));
     overflow: hidden;
     border-radius: var(--border-radius);
 }
@@ -230,7 +230,7 @@ img {
 }
 
 .ctn-2{
-    margin-left: 3%;
+    margin-right: 2%;
     border: 2px solid var(--grey);
     background-color: transparent;
     border-radius: 17px;
@@ -241,7 +241,7 @@ img {
     margin-top: 100px;
     cursor: pointer;
     color: var(--grey);
-    box-shadow: 0 .2rem 2rem var(--blue-1)
+    box-shadow: 0 .2rem 2rem var(--grey)
 }
 
 
@@ -251,7 +251,6 @@ img {
     font-weight: 500;
 }
 
-
 .ctn-1 {
     text-decoration: none;
     position: relative;
@@ -260,6 +259,7 @@ img {
     font-family: "Poppins";
     letter-spacing: 0px;
     border-bottom: 2.5px solid;
+    cursor: pointer;
     border-radius: 0px;
     padding: .15rem 0;
     transition: 0.3s;
@@ -282,4 +282,24 @@ img {
 
 .ctn-1:hover::before {
     width: 100%;
+}
+
+/* icons */
+.social-icons {
+    justify-content: space-around;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    border-bottom: 2px solid var(--grey-light);
+}
+
+.social-icons img {
+    width: 48px;
+    height: 48px;
+    filter: invert(1);
+    transition: filter .2s ease-in-out;
 }
