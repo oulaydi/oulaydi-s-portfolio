@@ -412,6 +412,13 @@ main.row{
 footer p {
     color: var(--grey-light);
     font-size: 12px;
-    font-weight: 500;
-    font-family: monospace;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+footer i, .ana{
+    text-decoration: none;
+    /* cursor: alias; */
+    text-transform: uppercase;
+    color: var(--grey);
 }
