@@ -5,8 +5,8 @@ const router = express.Router();
 router.get("/", (req, res) => {
     
     const local = {
-        index: "Home",
-        title: "Oulaydi",
+        index: "Portfolio",
+        title: "OuLaydi",
         descreption: "Hi, i am OULAYDI Oussama and i am going to talk about myself :3"
     }
 
