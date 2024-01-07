@@ -126,6 +126,10 @@ img {
     justify-content: center;
 }
 
+button .hire_me {
+    text-decoration: none;
+}
+
 .header_button {
     grid-area: button;
     display: flex;
@@ -133,6 +137,7 @@ img {
 }
 
 .header_button button{
+    cursor: pointer;
     display: flex;
     gap: .3rem;
     align-items: center;
