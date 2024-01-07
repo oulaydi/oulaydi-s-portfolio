@@ -1,22 +1,12 @@
+const controller = require("../controllers/controller");
 const express = require("express");
 const router = express.Router();
 
 // Routes
-router.get("/", (req, res) => {
-    
-    const local = {
-        index: "Portfolio",
-        title: "OuLaydi",
-        descreption: "Hi, i am OULAYDI Oussama and i am going to talk about myself :3"
-    }
-
-    res.render("index", { local });
-});
-
-router.get("/about", (req, res) => {
-    
-    res.send("about");
-});
+router.get("/",controller.home);
+router.get("/about",controller.about);
+router.get("/contact",controller.contact);
+router.use(controller.notFound);
 
 // Export modules
 module.exports = router;
