@@ -6,7 +6,7 @@ const connectDB = require("./server/config/db");
 // Express app
 const app = express();
 // Port
-const port = 5050;
+const PORT = 5050 || process.env.PORT;
 
 // Connect to DB
 connectDB();
@@ -23,4 +23,4 @@ app.set("view engine", "ejs");
 
 app.use("/", require("./server/routes/main"));
 
-app.listen(port);
+app.listen(PORT);
