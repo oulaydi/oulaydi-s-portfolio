@@ -478,3 +478,61 @@ footer i, .ana{
     justify-content: space-between;
     padding: 10px 0;
 }
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact form {
+    width: 600px;
+}
+
+.field .item, textarea {
+    width: 100%;
+    padding: 18px;
+    background-color: transparent;
+    border: 2px solid var(--grey-light);
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    color: var(--gray-light);
+    margin: 12px 0;
+}
+
+.field .item:focus {
+    border: 2px solid var(--blue-4);
+}
+
+textarea:focus {
+    border: 2px solid var(--blue-4);
+}
+
+textarea::placeholder {
+    color: var(--grey-light);
+}
+.field .item::placeholder {
+    color: var(--grey-light);
+}
+
+.ping{
+    border: 2px solid var(--grey);
+    background-color: transparent;
+    border-radius: 17px;
+    letter-spacing: 0.4px;
+    transition: 0.3s;
+    padding: 12px 24px; 
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--grey);
+    box-shadow: 0 .2rem 2rem var(--grey)
+}
+
+
+.ping:hover {
+    color: var(--white);
+    border: 2px solid var(--blue-2);
+    font-weight: 500;
+}
